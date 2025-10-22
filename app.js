@@ -15,6 +15,6 @@ app.listen(port, () => {
     console.log(error);
 }
 
-app.get('/ranny', async (request, response) => {
-    response.status(200).json({message: "Hello there I am Here!"});
+app.get('/eli', async (request, response) => {
+    response.status(200).json({message: "Hello there I am Elizabeth!"});
 });
