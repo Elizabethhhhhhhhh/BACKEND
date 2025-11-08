@@ -1,7 +1,7 @@
 import express from "express";
 import 'dotenv/config.js';
 import bookRoutes from "./routers/BookRoutes.js";
-import studentRoutes from "./routers/StudentRouters.js";
+import studentRoutes from "./routers/StudentRoutes.js";
 const app = express();
 
 
